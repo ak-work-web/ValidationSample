@@ -12,6 +12,6 @@ public class CalcForm {
 	private Integer leftNum;
 	@NotNull(message = "右：数値が未入力です")
 	@Range(min = 1, max = 10, message= "右：{min}~{max}の数値を入力してください。")
-	private Integer rightNuml;
+	private Integer rightNum;
 
 }
